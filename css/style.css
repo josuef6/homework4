@@ -57,6 +57,7 @@ link to the exact top of the page.*/
 .skip a:focus{
   left: 0;
   top: 0;
+  border: 2px solid black;
 }
 
 /*Your code here*/
@@ -80,7 +81,9 @@ nav{
 
   /*Your code here*/
   /*Span the top row*/
-
+}
+nav a:focus{
+  border: 2px solid black;
 }
 
 header{
